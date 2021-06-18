@@ -1,7 +1,7 @@
 const content = {
-  tagline: 'Kick off your project using',
-  title: 'Gatsby Starter.',
-  subtitle: 'Featuring Redux, Material UI, Contentful & other stuff!',
+  tagline: 'Welcome to',
+  title: 'Technosheen.',
+  subtitle: 'Software design and development in Miami, FL.',
 };
 
 export default content;
