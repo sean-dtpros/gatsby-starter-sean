@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter",
+  "name": "technosheen-gatsby",
   "private": true,
-  "description": "Gatsby Starter",
-  "version": "1.2.0",
-  "author": "Polychronis Papadakis <polychronis.papadakis@gmail.com>",
+  "description": "Technosheen Gatsby Site",
+  "version": "1.0.0",
+  "author": "Sean Mahoney <sean@technosheen.com>",
   "dependencies": {
     "@material-ui/core": "^4.11.3",
     "@material-ui/styles": "^4.11.3",
@@ -56,9 +56,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/chronisp/gatsby-starter"
+    "url": "https://github.com/sean-dtpros/gatsby-starter-sean"
   },
   "bugs": {
-    "url": "https://github.com/chronisp/gatsby-starter/issues"
+    "url": "https://github.com/sean-dtpros/gatsby-starter-sean/issues"
   }
 }

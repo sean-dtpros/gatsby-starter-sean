@@ -4,9 +4,9 @@ require('dotenv').config({
 
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter`,
-    description: `Gatsby Starter`,
-    author: `Polychronis Papadakis`,
+    title: `Technosheen`,
+    description: `Web design and development in Miami, FL.`,
+    author: `Sean Mahoney`,
   },
   plugins: [
     `gatsby-transformer-sharp`,
@@ -47,8 +47,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter`,
-        short_name: `Gatsby Starter`,
+        name: `Technosheen`,
+        short_name: `Technosheen`,
         start_url: `/`,
         background_color: `black`,
         theme_color: `black`,
