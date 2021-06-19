@@ -8,7 +8,7 @@ import { Animated, LinkList } from 'components';
 
 import content from './content';
 
-const { title, subtitle, links, summary } = content;
+const { title, subtitle, links, summary, jobTitle1, jobLocation1, } = content;
 
 const About = () => (
   <>
