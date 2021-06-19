@@ -24,7 +24,7 @@ const typography = typography => ({
   body2: {
     fontSize: typography.pxToRem(16),
     lineHeight: 1.1,
-    fontWeight: 300,
+    fontWeight: 400,
   },
 });
 

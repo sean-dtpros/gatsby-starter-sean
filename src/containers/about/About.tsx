@@ -26,23 +26,23 @@ const About = () => (
     </Typography>
     <Grid container spacing={3}>
         <Grid item xs={12}>
-            <Typography variant='p' color='textPrimary'>
+            <Typography variant='body1' color='textPrimary'>
                 {summary}
             </Typography>
         </Grid>
     <Grid item xs={6}>    
-      <Typography variant='h6' color='textPrimary'>
+      <Typography variant='body1' color='textPrimary'>
         {jobDate1}
         </Typography>
-      <Typography variant='h6' color='textPrimary'>
+      <Typography variant='body1' color='textPrimary'>
         {jobLocation1}
       </Typography>
     </Grid>
     <Grid item xs={6}>
-    <Typography variant='h5' color='textPrimary'>
+    <Typography variant='body2' color='textPrimary'>
         {jobTitle1}
         </Typography>
-      <Typography variant='h5' color='textPrimary'>
+      <Typography variant='body2' color='textPrimary'>
         {jobCompany1}
         </Typography>
     </Grid>  
