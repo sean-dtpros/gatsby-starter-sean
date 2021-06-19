@@ -2,7 +2,7 @@ import { FaGithub, FaLinkedin } from 'react-icons/fa';
 
 const content = {
   title: 'About me.',
-  subtitle: 'Miami based software developer specializing in front-end and Adobe Experience Manager',
+  subtitle: 'Miami-based software developer specializing in<br/> front-end and Adobe Experience Manager',
   links: [
     {
       to: 'https://linkedin.com/in/seanmahoney92',
