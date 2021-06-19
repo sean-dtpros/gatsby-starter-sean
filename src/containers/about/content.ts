@@ -17,6 +17,7 @@ const content = {
       newTab: true,
     },
   ],
+  summary: 'Find out more on Github',
 };
 
 export default content;

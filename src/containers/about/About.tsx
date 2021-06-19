@@ -6,7 +6,7 @@ import { Animated, LinkList } from 'components';
 
 import content from './content';
 
-const { title, subtitle, links } = content;
+const { title, subtitle, links, summary } = content;
 
 const About = () => (
   <>
@@ -19,6 +19,9 @@ const About = () => (
       {subtitle}
     </Typography>
     <LinkList links={links} />
+    <Typography variant='p' color='textPrimary'>
+      {summary}
+    </Typography>
   </>
 );
 
