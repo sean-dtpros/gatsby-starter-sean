@@ -17,9 +17,11 @@ const content = {
       newTab: true,
     },
   ],
-  summary: 'Find out more on Github',
-  jobTitle1: 'DT Professional Services LLC',
+  jobTitle1: 'Front-End Developer (AEM)',
+  jobCompany1: 'DT Professional Services LLC',
   jobLocation1: 'New York, NY',
+  jobDate1: 'October 2020 - Present',
+
 
 };
 

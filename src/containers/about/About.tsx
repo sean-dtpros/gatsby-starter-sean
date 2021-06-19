@@ -8,7 +8,7 @@ import { Animated, LinkList } from 'components';
 
 import content from './content';
 
-const { title, subtitle, links, summary, jobTitle1, jobLocation1, } = content;
+const { title, subtitle, links, jobDate1, jobTitle1, jobCompany1, jobLocation1, } = content;
 
 const About = () => (
   <>
@@ -31,13 +31,19 @@ const About = () => (
             </Typography>
         </Grid>
     <Grid item xs={6}>    
-      <Typography variant='h5' color='textPrimary'>
-        {jobTitle1}
+      <Typography variant='h6' color='textPrimary'>
+        {jobDate1}
         </Typography>
+      <Typography variant='h6' color='textPrimary'>
+        {jobLocation1}
+      </Typography>
     </Grid>
     <Grid item xs={6}>
+    <Typography variant='h5' color='textPrimary'>
+        {jobTitle1}
+        </Typography>
       <Typography variant='h5' color='textPrimary'>
-        {jobLocation1}
+        {jobCompany1}
         </Typography>
     </Grid>  
   </Grid>
