@@ -2,13 +2,14 @@ import React from 'react';
 import Typography from '@material-ui/core/Typography';
 import Fade from '@material-ui/core/Fade';
 import Grid from '@material-ui/core/Grid';
-
+import Box from '@material-ui/core/Box';
 
 import { Animated, LinkList } from 'components';
 
 import content from './content';
 
 const { title, subtitle, links, jobDate1, jobTitle1, jobCompany1, jobLocation1, summary, } = content;
+
 
 const About = () => (
   <>
@@ -24,6 +25,7 @@ const About = () => (
     <Typography variant='p' color='textPrimary'>
       {summary}
     </Typography>
+    <Box component="span" m={1}>
     <Grid container spacing={3}>
     <Grid item xs={6}>
     <Typography variant='p' color='textPrimary'>
@@ -41,8 +43,8 @@ const About = () => (
         {jobLocation1}
       </Typography>
     </Grid>
- 
   </Grid>
+  </Box>
   </>
 );
 
