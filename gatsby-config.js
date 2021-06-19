@@ -9,6 +9,7 @@ module.exports = {
     author: `Sean Mahoney`,
   },
   plugins: [
+    `gatsby-plugin-gatsby-cloud`,
     `gatsby-transformer-sharp`,
     `gatsby-transformer-remark`,
     `gatsby-plugin-sharp`,
