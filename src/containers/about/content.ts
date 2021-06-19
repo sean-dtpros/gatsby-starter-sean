@@ -1,8 +1,8 @@
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 
 const content = {
-  title: 'About.',
-  subtitle: 'Find out more on Github',
+  title: 'About me.',
+  subtitle: 'Miami based software developer specializing in front-end and Adobe Experience Manager',
   links: [
     {
       to: 'https://linkedin.com/in/seanmahoney92',
