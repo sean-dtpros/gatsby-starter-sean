@@ -18,6 +18,9 @@ const content = {
     },
   ],
   summary: 'Find out more on Github',
+  jobTitle1: 'DT Professional Services LLC',
+  jobLocation1: 'New York, NY',
+
 };
 
 export default content;
