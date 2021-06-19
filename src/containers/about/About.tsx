@@ -25,11 +25,14 @@ const About = () => (
       {summary}
     </Typography>
     <Grid container spacing={3}>
-        <Grid item xs={12}>
-            <Typography variant='body1' color='textPrimary'>
-                {summary}
-            </Typography>
-        </Grid>
+    <Grid item xs={6}>
+    <Typography variant='p' color='textPrimary'>
+        {jobTitle1}
+        </Typography>
+      <Typography variant='p' color='textPrimary'>
+        {jobCompany1}
+        </Typography>
+    </Grid> 
     <Grid item xs={6}>    
       <Typography variant='body1' color='textPrimary'>
         {jobDate1}
@@ -38,14 +41,7 @@ const About = () => (
         {jobLocation1}
       </Typography>
     </Grid>
-    <Grid item xs={6}>
-    <Typography variant='body2' color='textPrimary'>
-        {jobTitle1}
-        </Typography>
-      <Typography variant='body2' color='textPrimary'>
-        {jobCompany1}
-        </Typography>
-    </Grid>  
+ 
   </Grid>
   </>
 );
