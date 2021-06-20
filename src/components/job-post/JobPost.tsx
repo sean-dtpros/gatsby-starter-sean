@@ -15,10 +15,7 @@ const JobPost = ({ classes, data }: Props) => (
       {data.position}
     </Typography>
     <Typography variant='body2' color='textPrimary'>
-      {data.company}
-    </Typography>
-    <Typography variant='body1' color='textPrimary'>
-      {data.companyWebsite}
+      {data.organization}
     </Typography>
     <Typography variant='body1' color='textPrimary'>
       {data.startDate}

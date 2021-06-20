@@ -10,8 +10,10 @@ const useJobPosts = () => {
               position
               startDate
               endDate
-              company
-              companyWebsite
+              organization {
+                childMarkdownRemark {
+                  html
+                }
               location
               summary {
                 childMarkdownRemark {
