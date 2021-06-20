@@ -10,12 +10,13 @@ const useJobPosts = () => {
               position
               startDate
               endDate
-              organization {
+              location
+              summary {
                 childMarkdownRemark {
                   html
                 }
-              location
-              summary {
+              }
+              organization {
                 childMarkdownRemark {
                   html
                 }
