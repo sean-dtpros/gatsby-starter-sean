@@ -26,20 +26,20 @@ const About = () => (
       {summary}
     </Typography>
     <Box component="span" m={1} paddingY={2}>
-    <Grid container spacing={3} paddingY={2}>
+    <Grid container spacing={3} paddingY={5}>
     <Grid item xs={6}>
-    <Typography variant='p' color='textPrimary'>
+    <Typography variant='body2' color='textPrimary'>
         {jobTitle1}
         </Typography>
-      <Typography variant='p' color='textPrimary'>
+      <Typography variant='body2' color='textPrimary'>
         {jobCompany1}
         </Typography>
     </Grid> 
     <Grid item xs={6}>    
-      <Typography variant='body1' color='textPrimary'>
+      <Typography variant='body2' color='textPrimary'>
         {jobDate1}
         </Typography>
-      <Typography variant='body1' color='textPrimary'>
+      <Typography variant='body2' color='textPrimary'>
         {jobLocation1}
       </Typography>
     </Grid>
