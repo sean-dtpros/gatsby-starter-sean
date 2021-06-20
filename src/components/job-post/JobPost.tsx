@@ -11,15 +11,30 @@ interface Props {
 
 const JobPost = ({ classes, data }: Props) => (
   <div className={classes.container}>
-    <Typography variant='h3' color='textPrimary'>
-      {data.title}
+    <Typography variant='body2' color='textPrimary'>
+      {data.position}
     </Typography>
-    <Typography
-      variant='body1'
-      dangerouslySetInnerHTML={{
-        __html: data.body.childMarkdownRemark.html,
-      }}
-    />
+    <Typography variant='body2' color='textPrimary'>
+      {data.company}
+    </Typography>
+    <Typography variant='body1' color='textPrimary'>
+      {data.companyWebsite}
+    </Typography>
+    <Typography variant='body1' color='textPrimary'>
+      {data.startDate}
+    </Typography>
+    <Typography variant='body1' color='textPrimary'>
+      {data.endDate}
+    </Typography>
+    <Typography variant='body1' color='textPrimary'>
+      {data.location}
+    </Typography>
+    <Typography variant='body1' color='textPrimary'>
+      {data.company}
+    </Typography>
+    <Typography variant='body1' color='textPrimary'>
+      {data.description}
+    </Typography>
   </div>
 );
 
