@@ -13,7 +13,11 @@ const useJobPosts = () => {
               company
               companyWebsite
               location
-              description
+              summary {
+                childMarkdownRemark {
+                  html
+                }
+              }
             }
           }
         }
