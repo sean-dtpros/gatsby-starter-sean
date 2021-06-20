@@ -26,7 +26,7 @@ const About = () => (
       {summary}
     </Typography>
     <Box component="span" m={1} paddingY={2}>
-    <Grid container spacing={3}>
+    <Grid container spacing={3} paddingY={2}>
     <Grid item xs={6}>
     <Typography variant='p' color='textPrimary'>
         {jobTitle1}
