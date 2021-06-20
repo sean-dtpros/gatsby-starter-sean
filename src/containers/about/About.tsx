@@ -22,11 +22,11 @@ const About = () => (
       {subtitle}
     </Typography>
     <LinkList links={links} />
-    <Typography variant='p' color='textPrimary'>
+    <Typography variant='body1' color='textPrimary'>
       {summary}
     </Typography>
-    <Box component="span" m={1} paddingY={2}>
-    <Grid container spacing={3} paddingY={5}>
+    <Box component="span" m={1} paddingY={5}>
+    <Grid container spacing={3}>
     <Grid item xs={6}>
     <Typography variant='body2' color='textPrimary'>
         {jobTitle1}
