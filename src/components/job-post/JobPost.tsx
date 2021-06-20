@@ -29,12 +29,12 @@ const JobPost = ({ classes, data }: Props) => (
     <Typography variant='body1' color='textPrimary'>
       {data.location}
     </Typography>
-    <Typography variant='body1' color='textPrimary'>
-      {data.company}
-    </Typography>
-    <Typography variant='body1' color='textPrimary'>
-      {data.description}
-    </Typography>
+    <Typography
+      variant='body1'
+      dangerouslySetInnerHTML={{
+        __html: data.summary.childMarkdownRemark.html,
+      }}
+    />
   </div>
 );
 
