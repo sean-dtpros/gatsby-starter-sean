@@ -12,13 +12,15 @@ interface Props {
 
 const JobPost = ({ classes, data }: Props) => (
   <div className={classes.container}>
+    <Grid container spacing={2}>
       <Grid item xs={6}>
-    <Item><Typography variant='body2' color='textPrimary'>
-      {data.position}
-    </Typography>
+        <Item><Typography variant='body2' color='textPrimary'>
+        {data.position}
+      </Typography>
     <Typography variant='body2' color='textPrimary'>
       {data.company}
-    </Typography></Item>
+    </Typography>
+    </Item>
   </Grid>
     <Grid item xs={6}>
     <Item>    <Typography variant='body1' color='textPrimary'>
@@ -31,7 +33,6 @@ const JobPost = ({ classes, data }: Props) => (
       {data.location}
     </Typography></Item>
   </Grid>
-
 </Grid>
     <Typography variant='body2' color='textPrimary'>
       {data.position}
