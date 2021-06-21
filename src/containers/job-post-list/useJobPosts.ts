@@ -1,5 +1,6 @@
 import { useStaticQuery, graphql } from 'gatsby';
 
+
 const useJobPosts = () => {
   const data = useStaticQuery(
     graphql`
@@ -8,15 +9,11 @@ const useJobPosts = () => {
           edges {
             node {
               position
+              company
               startDate
               endDate
               location
               summary {
-                childMarkdownRemark {
-                  html
-                }
-              }
-              organization {
                 childMarkdownRemark {
                   html
                 }

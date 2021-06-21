@@ -14,12 +14,9 @@ const JobPost = ({ classes, data }: Props) => (
     <Typography variant='body2' color='textPrimary'>
       {data.position}
     </Typography>
-    <Typography
-      variant='body2'
-      dangerouslySetInnerHTML={{
-        __html: data.organization.childMarkdownRemark.html,
-      }}
-    />
+    <Typography variant='body2' color='textPrimary'>
+      {data.company}
+    </Typography>
     <Typography variant='body1' color='textPrimary'>
       {data.startDate}
     </Typography>
