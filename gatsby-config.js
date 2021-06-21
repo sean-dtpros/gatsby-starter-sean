@@ -14,6 +14,7 @@ module.exports = {
     `gatsby-transformer-remark`,
     `gatsby-plugin-sharp`,
     `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-mdx`,
     {
       resolve: `gatsby-plugin-typescript`,
     },
