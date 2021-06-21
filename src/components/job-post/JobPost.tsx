@@ -1,8 +1,6 @@
 import React from 'react';
 import { withStyles } from '@material-ui/styles';
 import Typography from '@material-ui/core/Typography';
-import MDXRenderer from "gatsby-plugin-mdx/mdx-renderer"
-import { MDXProvider } from "@mdx-js/react"
 
 import styles from './style';
 
@@ -28,7 +26,7 @@ const JobPost = ({ classes, data }: Props) => (
     <Typography variant='body1' color='textPrimary'>
       {data.location}
     </Typography>
-    <div
+    <div className={classes.summary}
         dangerouslySetInnerHTML={{
           __html: data.summary.childMarkdownRemark.html,
         }}
