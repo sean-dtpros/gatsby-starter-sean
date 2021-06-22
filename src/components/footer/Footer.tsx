@@ -11,7 +11,7 @@ const Footer = ({ classes }: Props) => (
   <footer className={classes.container}>
     © {new Date().getFullYear()}, 
     {` `}
-    <a href='https://www.technosheen.com'>Technosheen</a>
+    <a href='https://www.technosheen.com'> Technosheen</a>
   </footer>
 );
 
