@@ -9,7 +9,7 @@ interface Props {
 
 const Footer = ({ classes }: Props) => (
   <footer className={classes.container}>
-    © {new Date().getFullYear()},
+    © {new Date().getFullYear()}, 
     {` `}
     <a href='https://www.technosheen.com'>Technosheen</a>
   </footer>
