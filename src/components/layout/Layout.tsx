@@ -5,6 +5,7 @@ import Fade from '@material-ui/core/Fade';
 import classNames from 'classnames';
 
 import { Header } from 'components';
+import { Footer } from 'components';
 
 import styles from './style';
 
@@ -32,6 +33,7 @@ const Layout = ({ classes, children, noBackground }: Props) => (
       <Fade in mountOnEnter unmountOnExit>
         <main className={classes.content}>{children}</main>
       </Fade>
+      <Footer />
     </div>
   </Scrollbars>
 );
