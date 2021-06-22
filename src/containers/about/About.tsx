@@ -25,26 +25,6 @@ const About = () => (
     <Typography variant='body1' color='textPrimary'>
       {summary}
     </Typography>
-    <Box component="span" m={1} paddingTop={5}>
-    <Grid container spacing={3}>
-    <Grid item xs={6}>
-    <Typography variant='body2' color='textPrimary'>
-        {jobTitle1}
-        </Typography>
-      <Typography variant='body2' color='textPrimary'>
-        {jobCompany1}
-        </Typography>
-    </Grid> 
-    <Grid item xs={6}>    
-      <Typography variant='body2' color='textPrimary'>
-        {jobDate1}
-        </Typography>
-      <Typography variant='body2' color='textPrimary'>
-        {jobLocation1}
-      </Typography>
-    </Grid>
-  </Grid>
-  </Box>
   </>
 );
 
