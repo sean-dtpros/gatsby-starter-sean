@@ -4,8 +4,7 @@ const styles = ({ app, typography }) => ({
     margin: `${typography.pxToRem(8)} auto 0`,
     maxWidth: app.maxWidth,
     width: '100%',
-    fontSize: typography.pxToRem(11),
-
+    fontSize: typography.pxToRem(12),
   },
 });
 
