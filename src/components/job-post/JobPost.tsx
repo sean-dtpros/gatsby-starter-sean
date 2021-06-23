@@ -16,7 +16,7 @@ const JobPost = ({ classes, data }: Props) => (
       <Box component="span" m={1} paddingTop={5}>
       <Grid container spacing={3}>
       <Grid item xs={6}>
-      <Typography variant='body2' color='textPrimary'>
+      <Typography variant='body2' color='textJob'>
           {data.position}
           </Typography>
         <Typography variant='body2' color='textPrimary'>
