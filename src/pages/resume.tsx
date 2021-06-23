@@ -4,7 +4,7 @@ import { Layout, SEO } from 'components';
 import { ResumeSummary} from 'containers';
 import { JobPostList } from 'containers';
 
-const AboutPage = () => (
+const ResumePage = () => (
   <Layout>
     <SEO title='Resume - Sean Mahoney' />
     <ResumeSummary />
