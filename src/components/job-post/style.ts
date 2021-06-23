@@ -13,7 +13,14 @@ const styles = ({ typography }) => ({
       fontWeight: 500,
       color: '#60BAE1',
       padding: `${typography.pxToRem(12)} 0 ${typography.pxToRem(12)} 0`,
-    
+    },
+    dates: {
+      fontSize: typography.pxToRem(16),
+      lineHeight: 1.1,
+      fontWeight: 500,
+      color: '#60BAE1',
+      padding: `${typography.pxToRem(12)} 0 ${typography.pxToRem(12)} 0`,
+      float: 'right',
     },
   });
   
