@@ -8,9 +8,9 @@ const styles = ({ typography }) => ({
       fontWeight: 300,    
     },
     position: {
-      fontSize: typography.pxToRem(16),
-      lineHeight: 1.1,
-      fontWeight: 400,
+      fontSize: typography.pxToRem(18),
+      lineHeight: 1.118,
+      fontWeight: 500,
       color: '#6affff',    
     },
   });
