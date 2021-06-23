@@ -1,7 +1,6 @@
 import React from 'react';
 import Typography from '@material-ui/core/Typography';
 import Fade from '@material-ui/core/Fade';
-import styles from './style';
 
 import { Animated, LinkList } from 'components';
 
@@ -12,7 +11,6 @@ const { title, subtitle, links, summary, } = content;
 
 const About = () => (
   <>
-    <div className={classes.container}>
     <Fade in timeout={1000}>
       <Typography variant='h1' color='textPrimary' paddingTop='32'>
         <Animated>{title}</Animated>
@@ -25,8 +23,7 @@ const About = () => (
     <Typography variant='body1' color='textPrimary'>
       {summary}
     </Typography>
-    </div>
   </>
 );
 
-export default withStyles(styles)(About);
+export default About;
