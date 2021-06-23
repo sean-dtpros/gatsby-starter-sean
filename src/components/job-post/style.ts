@@ -19,7 +19,8 @@ const styles = ({ typography }) => ({
       lineHeight: 1.1,
       fontWeight: 300,
       color: '#333333',
-      padding: `${typography.pxToRem(12)} ${typography.pxToRem(5)} ${typography.pxToRem(12)} 0`,
+      padding: `${typography.pxToRem(12)} 0 ${typography.pxToRem(12)} 0`,
+      margin: `0 ${typography.pxToRem(10)} 0 0`,
       float: 'right',
     },
   });
