@@ -12,7 +12,7 @@ const styles = ({ typography }) => ({
       lineHeight: 1.25,
       fontWeight: 500,
       color: '#60BAE1',
-      padding: `${typography.pxToRem(12)} 0 ${typography.pxToRem(12)} 0`,
+      padding: `${typography.pxToRem(12)} 0`,
     },
     resumeTitlesRight: {
       fontSize: typography.pxToRem(14),

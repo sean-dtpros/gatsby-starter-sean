@@ -1,8 +1,6 @@
 import React from 'react';
 import Typography from '@material-ui/core/Typography';
 import Fade from '@material-ui/core/Fade';
-import Grid from '@material-ui/core/Grid';
-import Box from '@material-ui/core/Box';
 
 import { Animated, LinkList } from 'components';
 
