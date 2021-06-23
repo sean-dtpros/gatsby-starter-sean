@@ -1,6 +1,6 @@
 const styles = ({ typography }) => ({
   container: {
-    padding: `${typography.pxToRem(28)} 0`,
+    padding: `${typography.pxToRem(32)} 0`,
   },
 });
 

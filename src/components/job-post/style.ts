@@ -18,7 +18,7 @@ const styles = ({ typography }) => ({
       fontSize: typography.pxToRem(14),
       lineHeight: 1.1,
       fontWeight: 300,
-      padding: `${typography.pxToRem(12)} 0`,
+      padding: `${typography.pxToRem(12)} 10`,
       float: 'right',
     },
   });
