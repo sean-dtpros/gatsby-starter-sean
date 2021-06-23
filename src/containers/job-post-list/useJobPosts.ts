@@ -10,8 +10,8 @@ const useJobPosts = () => {
             node {
               position
               company
-              startDate
-              endDate
+              startDate(formatString: "MM, YYYY")
+              endDate(formatString: "MM, YYYY")
               location
               summary {
                 childMarkdownRemark {
