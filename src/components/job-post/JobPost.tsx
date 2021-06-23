@@ -27,9 +27,9 @@ const JobPost = ({ classes, data }: Props) => (
         <div className={classes.resumeTitlesRight}>
           {data.startDate} to {data.endDate}
         </div>
-        <div className={classes.resumeTitlesRight}>
+        <Typography float='right' variant='body1' color='textPrimary'>
           {data.location}
-        </div>  
+          </Typography>
       </Grid>
     </Grid>
     </Box>
