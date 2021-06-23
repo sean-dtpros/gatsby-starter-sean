@@ -5,13 +5,13 @@ const palette = {
   text: {
     primary: '#17252A',
     secondary: '#17252A',
-    job: '#016EF1',
   },
   primary: {
     light: '#17252A',
     main: '#17252A',
     dark: '#17252A',
     contrastText: '#fff',
+    
   },
   secondary: {
     light: '#6affff',
