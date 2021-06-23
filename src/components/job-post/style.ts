@@ -7,6 +7,12 @@ const styles = ({ typography }) => ({
       lineHeight: 1.1,
       fontWeight: 300,    
     },
+    position: {
+      fontSize: typography.pxToRem(16),
+      lineHeight: 1.1,
+      fontWeight: 400,
+      color: '#6affff',    
+    },
   });
   
   export default styles;
