@@ -25,14 +25,9 @@ const JobPost = ({ classes, data }: Props) => (
       </Grid> 
       <Grid item xs={6}>
         <div className={classes.resumeTitlesRight}>
-          {data.startDate} to {data.endDate}
+          {data.startDate} to {data.endDate}<br/ >
+          {data.location}
         </div>
-        <div className={classes.resumeTitlesRight}
-          <Typography variant='body1' color='textPrimary'>
-            {data.location}
-          </Typography>
-          </div>
-
       </Grid>
     </Grid>
     </Box>
