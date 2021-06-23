@@ -13,7 +13,7 @@ interface Props {
 
 const JobPost = ({ classes, data }: Props) => (
   <div className={classes.container}>
-      <Box component="span" m={1} paddingTop={5}>
+      <Box component="span" m={1} paddingTop={2}>
       <Grid container spacing={3}>
       <Grid item xs={6}>
       <div className={classes.position}>
