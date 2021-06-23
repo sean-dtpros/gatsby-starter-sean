@@ -26,7 +26,7 @@ muiTheme.overrides = {
       color: 'inherit',
     },
     colorSecondary: {
-      color: muiTheme.palette.secondary.main,
+      color: muiTheme.palette.secondary.light,
     },
     colorPrimary: {
       color: muiTheme.palette.primary.main,
