@@ -8,13 +8,13 @@ import { Animated, LinkList } from 'components';
 
 import content from './content';
 
-const { title, subtitle, links, jobDate1, jobTitle1, jobCompany1, jobLocation1, summary, } = content;
+const { title, subtitle, links, summary, } = content;
 
 
 const About = () => (
   <>
     <Fade in timeout={1000}>
-      <Typography variant='h1' color='textPrimary'>
+      <Typography variant='h1' color='textPrimary' padding='32'>
         <Animated>{title}</Animated>
       </Typography>
     </Fade>
