@@ -25,7 +25,7 @@ const JobPost = ({ classes, data }: Props) => (
       </Grid> 
       <Grid item xs={6}>
         <div className={classes.resumeTitlesRight}>
-          {data.startDate} to {data.endDate}<br/ >
+          {data.startDate} to {data.endDate}<br/ ><br/ >
           {data.location}
         </div>
       </Grid>
