@@ -9,7 +9,7 @@ import content from './content';
 const { title, subtitle, links, summary, } = content;
 
 
-const ResumeSummary = () => (
+const About = () => (
   <>
     <Fade in timeout={1000}>
       <Typography variant='h1' color='textPrimary' paddingTop='32'>
