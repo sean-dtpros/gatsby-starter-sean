@@ -1,6 +1,6 @@
 import React from 'react';
 import { Box } from '@material-ui/core';
-import ContactForm from '../../components/contact-form/ContactForm';
+import ContactForm from 'components';
 
 const Contact = () => (
   <>
