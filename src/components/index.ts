@@ -9,4 +9,3 @@ export { default as Modal } from './modal';
 export { default as Navigation } from './navigation';
 export { default as SEO } from './seo';
 export { default as JobPost } from './job-post';
-export { default as ContactForm } from './contact-form';
