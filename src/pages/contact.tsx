@@ -1,12 +1,12 @@
 import React from 'react';
 
 import { Layout, SEO } from 'components';
-import { Contact } from 'containers';
+import { ContactForm } from 'components';
 
 const ContactPage = () => (
   <Layout>
     <SEO title='Contact' />
-    <Contact />
+    <ContactForm />
   </Layout>
 );
 
